@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import ErrorPage from "./error-page";
 import Home from './routes/Home';
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 import './main.css'
 
@@ -69,7 +70,9 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <div className="bg-[#1d1d1d] text-slate-50 min-h-screen">
-      <RouterProvider router={router} />
+      <ParallaxProvider>
+        <RouterProvider router={router} />
+      </ParallaxProvider>
     </div>
   </React.StrictMode>
 )

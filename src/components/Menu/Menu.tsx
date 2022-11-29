@@ -9,8 +9,8 @@ import { CaretDownIcon } from '@radix-ui/react-icons';
 export function Menu() {
   return (
     <>
-      <NavigationMenu.Root className="NavigationMenuRoot bg-cyan-800">
-        <div className="w-full flex justify-center bg-cyan-900 p-4">
+      <NavigationMenu.Root className="NavigationMenuRoot bg-purplex-200">
+        <div className="w-full flex justify-center bg-purplex-500 p-4">
           {/* <div className="w-52">
             <img src="/icon.svg" alt="" />
           </div> */}
