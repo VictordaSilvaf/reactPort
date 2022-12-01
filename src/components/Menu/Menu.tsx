@@ -9,14 +9,14 @@ import { CaretDownIcon } from '@radix-ui/react-icons';
 export function Menu() {
   return (
     <>
-      <NavigationMenu.Root className="NavigationMenuRoot bg-purplex-200">
-        <div className="w-full flex justify-center bg-purplex-500 p-4">
-          {/* <div className="w-52">
+      <NavigationMenu.Root className="NavigationMenuRoot bg-greenx-500">
+        <div className="w-full flex justify-center bg-greenx-350 p-4">
+          <div className="w-52">
             <img src="/icon.svg" alt="" />
-          </div> */}
+          </div>
         </div>
 
-        <NavigationMenu.List className="NavigationMenuList">
+        <NavigationMenu.List className="NavigationMenuList gap-4 text-white">
           <NavigationMenu.Item>
             <NavigationMenu.Link className="NavigationMenuLink" href="/">
               Home

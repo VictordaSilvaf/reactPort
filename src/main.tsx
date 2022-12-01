@@ -69,7 +69,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <div className="bg-[#1d1d1d] text-slate-50 min-h-screen">
+    <div className="min-h-screen">
       <ParallaxProvider>
         <RouterProvider router={router} />
       </ParallaxProvider>
