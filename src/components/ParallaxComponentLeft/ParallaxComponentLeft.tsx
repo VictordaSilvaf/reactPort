@@ -1,13 +1,31 @@
 import { Parallax } from 'react-scroll-parallax';
 
 interface SubTitleProps {
-    title: string;
+    menssage: string;
+    image: string;
+    orientation: any;
+    reverse: boolean;
 }
 
-export function ParallaxComponentLeft({ title, ...restProps }: SubTitleProps) {
+export function ParallaxComponentLeft({ menssage, image, orientation, reverse, ...restProps }: SubTitleProps) {
     return (
-        <Parallax easing="easeOutQuint" speed={5} translateX={[-10, 6]} className="font-semibold text-3xl px-8" >
-            <h2 {...restProps}>{title}</h2>
-        </Parallax>
+        <div className="grid grid-cols-2 h-auto mt-10">
+            <Parallax
+                speed={5}
+                translateX={orientation[0]}
+                className="flex justify-center order-3 z-0"
+            >
+                <img src={image} alt="" className="h-[500px]"></img>
+            </Parallax>
+            <Parallax
+                speed={5}
+                translateX={orientation[1]}
+                className="flex justify-center text-center font-thin text-lg items-center flex-col px-16 -z-10"
+            >
+                <p className="">
+                    {menssage}
+                </p>
+            </Parallax>
+        </div>
     )
 }

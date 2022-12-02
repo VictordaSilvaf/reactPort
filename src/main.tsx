@@ -12,12 +12,12 @@ import {
   Route,
 } from "react-router-dom";
 
-import { EspecializaTI } from './routes/pages/Especializati';
-import { Alura } from './routes/pages/Alura';
-import { Iaexpertacademy } from './routes/pages/Iaexpertacademy';
-import { Rocketseat } from './routes/pages/Rocketseat';
-import { Digitalhouse } from './routes/pages/Digitalhouse';
-import { Mentorialaravelarchitect } from './routes/pages/Mentorialaravelarchitect';
+import { EspecializaTI } from './routes/pages/Studies/Especializati';
+import { Alura } from './routes/pages/Studies/Alura';
+import { Iaexpertacademy } from './routes/pages/Studies/Iaexpertacademy';
+import { Rocketseat } from './routes/pages/Studies/Rocketseat';
+import { Digitalhouse } from './routes/pages/Studies/Digitalhouse';
+import { Mentorialaravelarchitect } from './routes/pages/Studies/Mentorialaravelarchitect';
 
 const router = createBrowserRouter([
   {
