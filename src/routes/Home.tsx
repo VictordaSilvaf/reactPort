@@ -96,7 +96,7 @@ export default function Home() {
 
       {/* Sobre mim */}
       <div className="mt-44">
-        <SubTitle title="" />
+        <SubTitle title="Teste" />
         <div className="grid grid-cols-2 h-auto mt-10">
           <Parallax
             speed={5}
@@ -117,13 +117,10 @@ export default function Home() {
               Laravel), Quanto com desenvolvimento mobile (Kotlin e React
               Native), também tenho conhecimento em Devops (Docker, Kubernetes,
               Terraform, Git, AWS, Azure).
-            </p>
-            <p className="">
               Ainda não sou um especialista em nenhuma dessas tecnologias, mas
               estou sempre me aprimorando diariamente com o auxílio de cursos,
               mentorias, palestras, e não menos importante projetos práticos,
-              como a área da tecnologia é bem amimport {SubTitle} from
-              '../components/SubTitle/SubTitle'; pla ainda não tenho uma certeza
+              como a área da tecnologia é bem ampla ainda não tenho uma certeza
               de qual caminho tomarei na minha jornada, mais tenho certeza que
               futuramente serei um programador incrível, com muito foco e muito
               esforço.
