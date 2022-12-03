@@ -55,21 +55,18 @@ export function Menu() {
               Projetos <CaretDownIcon className="CaretDown" aria-hidden />
             </NavigationMenu.Trigger>
             <NavigationMenu.Content className="NavigationMenuContent">
-              <ul className="List two">
-                <ListItem title="Laravel" href="/docs/primitives/overview/introduction">
+              <ul className="List one">
+                <ListItem title="Laravel" href="/projetos/laravel">
                   Build high-quality, accessible design systems and web apps.
                 </ListItem>
-                <ListItem title="React" href="/docs/primitives/overview/getting-started">
+                <ListItem title="React" href="/projetos/react">
                   A quick tutorial to get you up and running with Radix Primitives.
                 </ListItem>
-                <ListItem title="Vue" href="/docs/primitives/overview/styling">
+                <ListItem title="Vue" href="/projetos/vue">
                   Unstyled and compatible with any styling solution.
                 </ListItem>
-                <ListItem title="HTML/CSS" href="/docs/primitives/overview/animation">
+                <ListItem title="HTML/CSS" href="/projetos/html_css">
                   Use CSS keyframes or any animation library of your choice.
-                </ListItem>
-                <ListItem title="Freelas" href="/docs/primitives/overview/accessibility">
-                  Tested in a range of browsers and assistive technologies.
                 </ListItem>
               </ul>
             </NavigationMenu.Content>
