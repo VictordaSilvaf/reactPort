@@ -1,13 +1,13 @@
-import { Parallax } from 'react-scroll-parallax';
-
 interface SubTitleProps {
-    title: string;
+  title: string;
 }
 
-export function SubTitle({ title, ...restProps }: SubTitleProps) {
-    return (
-        <Parallax easing="easeOutQuint" speed={5} translateX={[-10, 6]} className="font-semibold text-3xl px-8" >
-            <h2 {...restProps}>{title}</h2>
-        </Parallax>
-    )
+export function SubTitle({ title }: SubTitleProps) {
+  return (
+    <div className="flex justify-center">
+      <h1 className="font-semibold text-5xl mb-6 text-center text-greenx-500">
+        {title}
+      </h1>
+    </div>
+  );
 }

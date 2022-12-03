@@ -2,7 +2,6 @@ import { Footer, Menu } from "../components";
 import { Parallax } from "react-scroll-parallax";
 
 import { Link } from "react-router-dom";
-import { SubTitle } from "../components/SubTitle/SubTitle";
 
 import imgPCInitial from "/images/home/6502420.jpg";
 import web from "/images/home/web.png";
@@ -10,6 +9,7 @@ import mobile from "/images/home/mobile.png";
 import devops from "/images/home/devops.png";
 import aboutme from "/images/home/aboutme.png";
 import aboutme2 from "/images/home/3819103.png";
+import { SubTitle } from "../components/SubTitle/SubTitle";
 
 function open() {
   const menu = document.getElementsByClassName("enterAnimation");
@@ -96,7 +96,7 @@ export default function Home() {
 
       {/* Sobre mim */}
       <div className="mt-44">
-        <SubTitle title="Sobre Mim" />
+        <SubTitle title="" />
         <div className="grid grid-cols-2 h-auto mt-10">
           <Parallax
             speed={5}
@@ -122,7 +122,8 @@ export default function Home() {
               Ainda não sou um especialista em nenhuma dessas tecnologias, mas
               estou sempre me aprimorando diariamente com o auxílio de cursos,
               mentorias, palestras, e não menos importante projetos práticos,
-              como a área da tecnologia é bem ampla ainda não tenho uma certeza
+              como a área da tecnologia é bem amimport {SubTitle} from
+              '../components/SubTitle/SubTitle'; pla ainda não tenho uma certeza
               de qual caminho tomarei na minha jornada, mais tenho certeza que
               futuramente serei um programador incrível, com muito foco e muito
               esforço.
