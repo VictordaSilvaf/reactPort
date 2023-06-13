@@ -16,7 +16,7 @@ export function Menu() {
           </div>
         </div>
 
-        <NavigationMenu.List className="NavigationMenuList gap-4 text-white">
+        <NavigationMenu.List className="NavigationMenuList gap-1 sm:gap-4 overflow-x-hidden text-white">
           <NavigationMenu.Item>
             <NavigationMenu.Link className="NavigationMenuLink" href="/">
               Home
@@ -29,22 +29,16 @@ export function Menu() {
             <NavigationMenu.Content className="NavigationMenuContent">
               <ul className="List two">
                 <ListItem href="/estudos/especializati" title="EspecializaTI">
-                  CSS-in-JS with best-in-class developer experience.
                 </ListItem>
                 <ListItem href="/estudos/alura" title="Alura">
-                  Beautiful, thought-out palettes with auto dark mode.
                 </ListItem>
                 <ListItem href="/estudos/iaexpertacademy" title="IA Expert Academy">
-                  A crisp set of 15x15 icons, balanced and consistent.
                 </ListItem>
-                <ListItem href="/estudos/rocketseat" title="Rocket Seat">
-                  A crisp set of 15x15 icons, balanced and consistent.
+                <ListItem href="/estudos/rocketseat" title="RocketSeat">
                 </ListItem>
                 <ListItem href="/estudos/digitalhouse" title="Digital House">
-                  A crisp set of 15x15 icons, balanced and consistent.
                 </ListItem>
                 <ListItem href="/estudos/mentorialaravelarchitect" title="Mentoria Laravel Architect">
-                  A crisp set of 15x15 icons, balanced and consistent.
                 </ListItem>
               </ul>
             </NavigationMenu.Content>
@@ -57,16 +51,12 @@ export function Menu() {
             <NavigationMenu.Content className="NavigationMenuContent">
               <ul className="List one">
                 <ListItem title="Laravel" href="/projetos/laravel">
-                  Build high-quality, accessible design systems and web apps.
                 </ListItem>
                 <ListItem title="React" href="/projetos/react">
-                  A quick tutorial to get you up and running with Radix Primitives.
                 </ListItem>
                 <ListItem title="Vue" href="/projetos/vue">
-                  Unstyled and compatible with any styling solution.
                 </ListItem>
                 <ListItem title="HTML/CSS" href="/projetos/html_css">
-                  Use CSS keyframes or any animation library of your choice.
                 </ListItem>
               </ul>
             </NavigationMenu.Content>

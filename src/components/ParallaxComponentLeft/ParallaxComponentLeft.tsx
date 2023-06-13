@@ -13,14 +13,14 @@ export function ParallaxComponentLeft({ menssage, image, orientation, reverse, .
             <Parallax
                 speed={5}
                 translateX={orientation[0]}
-                className="flex justify-center order-3 z-0"
+                className="col-span-2 sm:col-span-1 flex justify-center order-3 z-0"
             >
                 <img src={image} alt="" className="h-[500px]"></img>
             </Parallax>
             <Parallax
                 speed={5}
                 translateX={orientation[1]}
-                className="flex justify-center text-center font-thin text-lg items-center flex-col px-16 -z-10"
+                className="col-span-2 sm:col-span-1 flex justify-center text-center font-thin text-lg items-center flex-col px-16 -z-10"
             >
                 <p className="">
                     {menssage}

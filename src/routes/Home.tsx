@@ -29,10 +29,10 @@ export default function Home() {
               open();
             }}
             speed={5}
-            translateX={["100px", "-200px"]}
-            className="flex items-center justify-center opacity-0 enterAnimation"
+            translateX={["250px", "-200px"]}
+            className="w-full pt-10 md:pt-0 flex items-center justify-center opacity-0 enterAnimation col-span-2 sm:col-span-1"
           >
-            <div className="flex flex-col">
+            <div className="flex flex-col"> 
               <h1 className="font-semibold text-5xl mb-6 text-center text-greenx-500">
                 Programador de sonhos
               </h1>
@@ -58,9 +58,9 @@ export default function Home() {
             speed={5}
             translateX={["-100px", "200px"]}
             opacity={[0, 100]}
-            className="flex items-center justify-center opacity-0 enterAnimation p-4"
+            className="flex pt-4 md:pt-0 items-center justify-center opacity-0 enterAnimation p-4 col-span-2 md:col-span-1"
           >
-            <img src={imgPCInitial} alt="" className="w-3/4" />
+            <img src={imgPCInitial} alt="" className="w-3/4 " />
           </Parallax>
         </div>
       </div>
@@ -69,14 +69,14 @@ export default function Home() {
       <div className="mt-20">
         <SubTitle title="Principais Tecnologias" />
         <div className="flex justify-center mt-10">
-          <Parallax opacity={[0.5, 1]} scale={[0.8, 1]} className="flex gap-12">
-            <div className="">
+          <Parallax opacity={[0.5, 1]} scale={[0.8, 1]} className="gap-12 grid grid-cols-3">
+            <div className="col-span-3 sm:col-span-1">
               <div className="w-72 h-72 bg-cyan-200 rounded-full">
                 <img src={web} alt="Desenvolvimento Web" />
               </div>
               <h3 className="text-center mt-6 text-lg">Desenvolvimento Web</h3>
             </div>
-            <div className="">
+            <div className="col-span-3 sm:col-span-1">
               <div className="w-72 h-72 bg-cyan-200 rounded-full">
                 <img src={mobile} alt="Desenvolvimento Web" />
               </div>
@@ -84,7 +84,7 @@ export default function Home() {
                 Desenvolvimento Mobile
               </h3>
             </div>
-            <div className="">
+            <div className="col-span-3 sm:col-span-1">
               <div className="w-72 h-72 bg-cyan-200 rounded-full">
                 <img src={devops} alt="Desenvolvimento Web" />
               </div>
@@ -101,14 +101,14 @@ export default function Home() {
           <Parallax
             speed={5}
             translateX={["-100px", "50px"]}
-            className="flex justify-center "
+            className="flex justify-center col-span-2 sm:col-span-1"
           >
             <img src={aboutme} alt="" className="h-[500px]"></img>
           </Parallax>
           <Parallax
             speed={5}
             translateX={["100px", "-50px"]}
-            className="flex justify-center text-center font-thin text-lg items-center flex-col pr-16"
+            className="flex justify-center text-center font-thin text-lg items-center flex-col pr-16  col-span-2 sm:col-span-1"
           >
             <p className="">
               Olá me chamo Victor e sou um programador, até o momento com 2 anos
@@ -135,7 +135,7 @@ export default function Home() {
           <Parallax
             speed={5}
             translateX={["-100px", "50px"]}
-            className="flex justify-center text-center font-thin text-lg items-center flex-col pl-16"
+            className="flex justify-center text-center font-thin text-lg items-center flex-col pl-16  col-span-2 sm:col-span-1"
           >
             <p className="">
               Decidi seguir a área da tecnologia por volta dos 15 anos aonde
@@ -156,7 +156,7 @@ export default function Home() {
           <Parallax
             speed={5}
             translateX={["100px", "-50px"]}
-            className="flex justify-center text-center font-thin text-lg items-center flex-col pr-16"
+            className="flex justify-center text-center font-thin text-lg items-center flex-col pr-16  col-span-2 sm:col-span-1"
           >
             <img src={imgPCInitial} alt="" className="w-3/4" />
           </Parallax>
@@ -167,14 +167,14 @@ export default function Home() {
             <Parallax
               speed={5}
               translateX={["-100px", "100px"]}
-              className="flex justify-center "
+              className="flex justify-center  col-span-2 sm:col-span-1"
             >
-              <img src={aboutme2} alt="" className="h-[500px]"></img>
+              <img src={aboutme2} alt="" className="h-[400px]"></img>
             </Parallax>
             <Parallax
               speed={5}
               translateX={["100px", "-100px"]}
-              className="flex justify-center text-center font-thin text-lg items-center flex-col pr-16"
+              className="flex justify-center text-center font-thin text-lg items-center flex-col pr-16  col-span-2 sm:col-span-1"
             >
               <p className="">
                 E agora após vários anos e diversos curso, tutoriais, livros,
