@@ -35,7 +35,7 @@ Esse foi um projeto aonde conto um sobre de mim e um pouco sobre minha história
 ## 🚀 Como executar
 
 - Clone o repositório
-- Instale as dependências com `npm`
+- Instale as dependências com `npm i`
 - Inicie o servidor com `npm run dev`
 
 Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navegador.
