@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="victorsfdev.com" title="victorsfdev.com" src=".github/icon.svg" />
+  <img alt="victorsfdev.com" width="25%" title="victorsfdev.com" src=".github/icon.svg" />
 </h1>
 
 <p align="center">
