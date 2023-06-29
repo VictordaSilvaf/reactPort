@@ -30,7 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Esse foi um projeto aonde conto um sobre de mim e um pouco sobre minha história dentro da área de programação.
+Esse é um projeto aonde falo sobre de mim e um pouco sobre minha história dentro da área de programação.
 
 ## 🚀 Como executar
 
